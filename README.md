@@ -7,6 +7,8 @@ Worlds are initialized as 90 x 40 grids of black tiles. A random positive intege
 
 Following room generation, we connect rooms at random using hallways. First, we randomly select a point inside a fixed first room and another point inside a second room. Then, we draw a path comprised of a horizontal and vertical component connecting the two points together. Finally, we update a weighted union-find data structure to reflect that these two rooms are now connected.
 
+![alt text](https://i.imgur.com/OqH2RJB.png)
+
 ## Persistence
 
 ## Interactivity
